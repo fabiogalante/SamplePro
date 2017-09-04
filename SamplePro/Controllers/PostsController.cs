@@ -8,7 +8,7 @@ using SamplePro.Models;
 namespace SamplePro.Controllers
 {
     [Produces("application/json")]
-    [Route("api/Post")]
+    //[Route("api/Post")]
     public class PostsController : Controller
     {
         private readonly Models.AppsContext _context;
