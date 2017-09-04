@@ -12,6 +12,7 @@ namespace SamplePro.Controllers
     [Route("api/[controller]")]
     public class PostController : Controller
     {
+
         private readonly ApiContext _db;
 
 
